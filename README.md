@@ -1,3 +1,3 @@
-Simple login form includes Login page and Registeration for new users. Initial login/password = tester/password
+Simple login app includes Login and Registeration view. Initial correct login/password = tester/password
 
-Task: Develop ui test for current app using any preferred framework.
+Task: Develop as many ui tests as possible for this app using any preferred framework.
