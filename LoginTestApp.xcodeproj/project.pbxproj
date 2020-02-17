@@ -19,6 +19,8 @@
 		545917D823D929B000EB3297 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545917D723D929B000EB3297 /* LoggedInViewController.swift */; };
 		545917DA23D9579900EB3297 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545917D923D9579900EB3297 /* Data.swift */; };
 		545917DC23D9696C00EB3297 /* LoginStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545917DB23D9696C00EB3297 /* LoginStoryBoard.storyboard */; };
+		7FF3339723FB564100151320 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3339623FB564100151320 /* Login.swift */; };
+		7FF3339A23FB579B00151320 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3339923FB579B00151320 /* LoginTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		545917D723D929B000EB3297 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		545917D923D9579900EB3297 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		545917DB23D9696C00EB3297 /* LoginStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryBoard.storyboard; sourceTree = "<group>"; };
+		7FF3339623FB564100151320 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		7FF3339923FB579B00151320 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 		5459179E23D90C0500EB3297 /* LoginTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				7FF3339523FB562F00151320 /* Models */,
 				545917DB23D9696C00EB3297 /* LoginStoryBoard.storyboard */,
 				5459179F23D90C0500EB3297 /* AppDelegate.swift */,
 				545917A123D90C0500EB3297 /* SceneDelegate.swift */,
@@ -133,6 +138,7 @@
 		545917B523D90C0800EB3297 /* LoginTestAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				7FF3339823FB578D00151320 /* Login */,
 				545917B623D90C0800EB3297 /* LoginTestAppTests.swift */,
 				545917B823D90C0800EB3297 /* Info.plist */,
 			);
@@ -146,6 +152,22 @@
 				545917C323D90C0800EB3297 /* Info.plist */,
 			);
 			path = LoginTestAppUITests;
+			sourceTree = "<group>";
+		};
+		7FF3339523FB562F00151320 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FF3339623FB564100151320 /* Login.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7FF3339823FB578D00151320 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7FF3339923FB579B00151320 /* LoginTest.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF3339723FB564100151320 /* Login.swift in Sources */,
 				545917D023D91AA600EB3297 /* LoginViewController.swift in Sources */,
 				545917A023D90C0500EB3297 /* AppDelegate.swift in Sources */,
 				545917D823D929B000EB3297 /* LoggedInViewController.swift in Sources */,
@@ -293,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				545917B723D90C0800EB3297 /* LoginTestAppTests.swift in Sources */,
+				7FF3339A23FB579B00151320 /* LoginTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

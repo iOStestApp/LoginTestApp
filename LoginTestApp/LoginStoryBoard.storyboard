@@ -57,7 +57,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginButtonPress:" destination="SCf-g2-mXK" eventType="touchDragInside" id="x5A-bQ-Ndy"/>
+                                    <action selector="loginButtonPress:" destination="SCf-g2-mXK" eventType="touchUpInside" id="d0H-RM-PiN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXJ-xZ-Opj">
@@ -273,6 +273,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="kvE-j3-D1w"/>
         <segue reference="Hs6-XO-jHI"/>
     </inferredMetricsTieBreakers>
 </document>
