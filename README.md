@@ -1,3 +1,9 @@
-Simple login app includes Login and Registeration view. Initial correct login/password = tester/password
+Simple login app includes Login and Registeration view. 
 
-Task: Develop as many ui tests as possible for this app using any preferred framework.
+Email must contain an "@" and end in ".com"
+
+Password must be >= 8 characters and contain a "$"
+
+Engineering Task: Address ToDos
+
+SDET Task: Develop as many ui tests as possible for this app using any preferred framework.

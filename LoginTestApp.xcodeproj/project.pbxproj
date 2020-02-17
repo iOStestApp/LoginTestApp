@@ -21,6 +21,7 @@
 		545917DC23D9696C00EB3297 /* LoginStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545917DB23D9696C00EB3297 /* LoginStoryBoard.storyboard */; };
 		7FF3339723FB564100151320 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3339623FB564100151320 /* Login.swift */; };
 		7FF3339A23FB579B00151320 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3339923FB579B00151320 /* LoginTest.swift */; };
+		7FF3339C23FB5E3900151320 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7FF3339B23FB5E3900151320 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		545917DB23D9696C00EB3297 /* LoginStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryBoard.storyboard; sourceTree = "<group>"; };
 		7FF3339623FB564100151320 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		7FF3339923FB579B00151320 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		7FF3339B23FB5E3900151320 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		5459179323D90C0500EB3297 = {
 			isa = PBXGroup;
 			children = (
+				7FF3339B23FB5E3900151320 /* README.md */,
 				545917D123D91C9900EB3297 /* LaunchScreen.storyboard */,
 				5459179E23D90C0500EB3297 /* LoginTestApp */,
 				545917B523D90C0800EB3297 /* LoginTestAppTests */,
@@ -275,6 +278,7 @@
 			files = (
 				545917D223D91C9900EB3297 /* LaunchScreen.storyboard in Resources */,
 				545917A923D90C0800EB3297 /* Preview Assets.xcassets in Resources */,
+				7FF3339C23FB5E3900151320 /* README.md in Resources */,
 				545917A623D90C0800EB3297 /* Assets.xcassets in Resources */,
 				545917DC23D9696C00EB3297 /* LoginStoryBoard.storyboard in Resources */,
 			);
