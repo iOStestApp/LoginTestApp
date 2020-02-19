@@ -15,12 +15,18 @@ class LoginTest: XCTestCase {
     func test_IsEmailValid_emptyEmail_false() {
         let login = Login(email: "", password: "")
         XCTAssertFalse(login.isEmailValid())
-        XCTAssertFalse(login.isValid())
+//        XCTAssertFalse(login.isValid())
     }
 
     // TODO: Fill in this test
-    func test_IsPasswordValid_() {
+    func test_IsPasswordValid_emptyPassword_false() {
+        let login = Login(email: "", password: "")
+        XCTAssertFalse(login.isPasswordValid())
+    }
 
+    func test_IsPasswordValid_validPassword_true() {
+        let login = Login(email: "", password: "password$")
+        XCTAssertTrue(login.isPasswordValid())
     }
 
     // TODO: Fill in this test

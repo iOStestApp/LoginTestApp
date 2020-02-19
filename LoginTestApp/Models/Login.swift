@@ -1,10 +1,10 @@
 import Foundation
 
-class Login {
+public class Login {
     let email: String!
     let password: String!
 
-    init(email: String, password: String) {
+    public init(email: String, password: String) {
         self.email = email
         self.password = password
     }
